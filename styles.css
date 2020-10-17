@@ -1,11 +1,16 @@
 /*Body*/
 body {
-    background-image: url(https://live.staticflickr.com/4099/4744094305_718c163891_c.jpg);
+    background-image: url('popcorn3.jpg');
+
+    background-repeat: no-repeat;
+
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
   /*header*/
   .navbar {
-    background-color: #934149;
+    background-color: #4ecdc4;
   }
   
   .navbar-brand {
@@ -28,8 +33,12 @@ body {
     width: 100%;
     padding: 15px;
     color: rgb(221, 133, 133);
-    background-image: linear-gradient(to bottom,
-  rgba(0,0,0,0.15), rgba(0,0,0,0.75));
+    background-image: linear-gradient(rgb(255 255 255 / 15%), rgb(60 178 178 / 75%));
+  }
+
+  footer a
+  {
+    color: white;
   }
   
   #footerBetha {
