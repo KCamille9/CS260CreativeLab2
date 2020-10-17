@@ -15,7 +15,7 @@ document.getElementById("DateSubmit").addEventListener("click", function(event) 
       let newContainer="";
       newContainer+='<div class="card-deck">';
         for(let i=0 ; i < json.results.length;i++){
-            if (i%4 == 0 && i !=0){
+            if (i%3 == 0 && i !=0){
                 newContainer += '</div><br><div class="card-deck">'
             }
             newContainer+=CreateCard(json.results[i],i);

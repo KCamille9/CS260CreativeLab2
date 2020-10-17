@@ -60,6 +60,15 @@ body {
   }
   
   .card {
-    opacity: .85;
-    border: 3px solid #934149;
+    opacity: 1;
+    border: 3px solid #fff;
+
+    box-shadow: 0 2px 25px rgb(82 65 74 / 72%);
+    padding: 10px;
+  }
+
+  .card:hover, .card:focus, .card:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-10px);
+    transition: 0.3s;
   }
